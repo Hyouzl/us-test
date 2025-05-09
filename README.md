@@ -145,7 +145,7 @@ Content-Type: application/json
 
 > #### **GET /jobs/search?status={string}&title={string}**
 >
-> 모든 작업 목록을 조회합니다.
+> 상태나 제목으로 작업을 검색합니다.
 
 #### 요청 예시
 
