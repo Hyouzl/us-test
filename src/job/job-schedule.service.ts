@@ -14,7 +14,7 @@ export class JobSchedulerService {
 
   constructor(private readonly dbService: JsonDbService) {}
 
-  @Cron('*/60000 * * * * *') // 매 1분마다 실행
+  @Cron('*/60 * * * * *') // 매 1분마다 실행
   async handlePendingJobs() {
     const now = new Date().toISOString();
     try {
